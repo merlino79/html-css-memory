@@ -76,14 +76,19 @@ main .card-element:hover{
 }
 
 
-main .card-element.active .card-text{
+main .card-element.active .card-text,
+main .card-element .card-text:hover{
   display: block;
   
 } 
 
+main .card-element .card-text:hover{
+  color: blue;
+}
+
 
 main .card-element.active img,
-main .card-element.card-element:hover img{
+main .card-element:hover img{
   visibility: visible;
 }
 
