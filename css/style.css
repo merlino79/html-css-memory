@@ -10,7 +10,7 @@ body{
   font-family: 'Nerko One', cursive;
   text-align: center;
   font-size: 35px;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+  text-shadow: 2px 2px 2px rgba(216, 20, 20, 0.5);
 }
 
 header{
@@ -61,7 +61,7 @@ main .card-element .card-text{
   left: 0;
   line-height: 40px;
   width: 100%;
-  color: fuchsia;
+  color: rgb(37, 189, 235);
   display: none;
 } 
  
@@ -69,30 +69,31 @@ main .card-element .card-text{
 
 /* active  */
 
-main .card-element.active{
+main .card-element.active,
+main .card-element:hover{
   background-image: none;
 
 }
 
 
-
-main .card-element.active img{
-  visibility: visible;
-}
-
-.card-element .card-text:hover{
-  color: aqua;
-
-}
-
 main .card-element.active .card-text{
   display: block;
   
 } 
+
+
+main .card-element.active img,
+main .card-element.card-element:hover img{
+  visibility: visible;
+}
+
  /* fine active  */
+
+
+
+
+
+
  
-
-
-
 
 
