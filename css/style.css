@@ -36,7 +36,7 @@ header{
   width: 20%;
   margin: 1%;
   border-radius: 10px;
-  /* background-image : url(../img/pattern.png); */
+  background-image : url(../img/pattern.png);
   background-size: contain;
   cursor: pointer;
   box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
@@ -45,6 +45,9 @@ header{
  main .card-element img{
   width: 100%;
   padding: 20px 20px 40px;
+  visibility: hidden;
+
+  
 
 }
 
@@ -55,16 +58,23 @@ main .card-element .card-text{
   line-height: 40px;
   width: 100%;
   color: fuchsia;
+  visibility: hidden;
+
+  
  
 }
 
-main .card-element.active,
-main .card-element:hover{
+.card-element:active{
   background-image: none;
 }
 
-
-main .card-element.active img,
-main .card-element.card-element:hover img{
-  visibility: hidden;
+.card-element:hover{
+  background-image: none;
 }
+
+.card-element img:hover{
+  visibility: visible;
+
+}
+
+
