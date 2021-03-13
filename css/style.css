@@ -36,25 +36,35 @@ header{
   width: 20%;
   margin: 1%;
   border-radius: 10px;
-  background-image : url(../img/pattern.png);
+  /* background-image : url(../img/pattern.png); */
   background-size: contain;
   cursor: pointer;
   box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
  
- .card-element img{
+ main .card-element img{
   width: 100%;
   padding: 20px 20px 40px;
-  visibility: hidden;
+
 }
 
-.card-element .card-text{
+main .card-element .card-text{
   position: absolute;
   bottom: 0;
   left: 0;
   line-height: 40px;
   width: 100%;
   color: fuchsia;
-  display: none;
+ 
 }
 
+main .card-element.active,
+main .card-element:hover{
+  background-image: none;
+}
+
+
+main .card-element.active img,
+main .card-element.card-element:hover img{
+  visibility: hidden;
+}
