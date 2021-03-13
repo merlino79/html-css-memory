@@ -62,7 +62,7 @@ main .card-element .card-text{
   line-height: 40px;
   width: 100%;
   color: fuchsia;
-  /* display: none; */
+  display: none;
 } 
  
  
@@ -71,6 +71,7 @@ main .card-element .card-text{
 
 main .card-element.active{
   background-image: none;
+
 }
 
 
@@ -83,6 +84,13 @@ main .card-element.active img{
   color: aqua;
 
 }
+
+main .card-element.active .card-text{
+  display: block;
+  
+} 
+ 
+ 
 
 
 
