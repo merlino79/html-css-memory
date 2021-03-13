@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  background-color: #adcadb;
+  font-family: 'Nerko One', cursive;
+  text-align: center;
+  font-size: 35px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+header{
+  margin-top: 10px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.conteiner{
+  width: 65%;
+  max-width: 900px;
+  margin: auto ;
+}
+
+
+.card-element{
+  position: relative;
+  
+  background-color: white;
+  width: 20%;
+  margin: 1%;
+  border-radius: 10px;
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+ 
+ .card-element img{
+  width: 100%;
+  padding: 20px 20px 40px;
+  visibility: hidden;
+}
+
+.card-element .card-text{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  line-height: 40px;
+  width: 100%;
+  color: fuchsia;
+  display: none;
+}
