@@ -27,14 +27,16 @@ header{
 }
 
 
+
 .card-element{
   position: relative;
+  display: inline-block;
   
   background-color: white;
   width: 20%;
   margin: 1%;
   border-radius: 10px;
-  background-image: url(../img/pattern.png);
+  background-image : url(../img/pattern.png);
   background-size: contain;
   cursor: pointer;
   box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
@@ -55,3 +57,4 @@ header{
   color: fuchsia;
   display: none;
 }
+
